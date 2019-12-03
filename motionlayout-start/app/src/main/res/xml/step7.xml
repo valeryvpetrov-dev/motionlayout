@@ -24,10 +24,10 @@
             app:constraintSetEnd="@+id/end"
             app:duration="3000">
 
-        <!-- Fix OnSwipe by changing touchAnchorSide -->
         <OnSwipe
                 app:touchAnchorId="@id/moon"
                 app:touchAnchorSide="bottom"
+                app:dragDirection="dragRight"
         />
 
 
